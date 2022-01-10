@@ -1,0 +1,33 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "SQL  challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraudwheeldrive/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraudwheeldrive/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/fraudwheeldrive/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
