@@ -1,33 +1,27 @@
 {
-  "name": "employee-tracker",
+  "name": "drraccoony",
   "version": "1.0.0",
-  "description": "SQL  challenge",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fraudwheeldrive/Employee-Tracker.git"
+    "url": "git+https://github.com/drraccoony/employee-tracker-sql.git"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fraudwheeldrive/Employee-Tracker/issues"
+    "url": "https://github.com/drraccoony/employee-tracker-sql/issues"
   },
-  "homepage": "https://github.com/fraudwheeldrive/Employee-Tracker#readme",
+  "homepage": "https://github.com/drraccoony/employee-tracker-sql#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "dotenv": "^9.0.2",
-    "express": "^4.17.1",
-    "inquirer": "^8.0.0",
+    "inquirer": "^8.1.2",
+    "inquirer-confirm": "^2.0.7",
     "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "package": "^1.0.1"
-  },
-  "devDependencies": {
-    "jest": "^26.6.3"
+    "mysql2": "^2.3.0"
   }
 }
